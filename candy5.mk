@@ -1,11 +1,11 @@
 $(call inherit-product, device/htc/m4/full_m4.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/candy5/config/common_full_phone.mk)
 
 # Device naming
 PRODUCT_DEVICE := m4
-PRODUCT_NAME := cm_m4
+PRODUCT_NAME := candy5_m4
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := One Mini
 PRODUCT_MANUFACTURER := HTC

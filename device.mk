@@ -83,18 +83,14 @@ PRODUCT_PACKAGES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    fstab.m4 \
-    init.m4.rc \
-    init.m4.usb.rc \
-    ueventd.m4.rc
+    fstab.qcom \
+    init.qcom.rc \
+    init.qcom.usb.rc \
+    ueventd.qcom.rc
 
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermald.conf:system/etc/thermald.conf
-
-# Torch
-PRODUCT_PACKAGES += \
-    Torch
 
 # WiFi
 PRODUCT_PACKAGES += \
